@@ -1,0 +1,31 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+
+body {
+  width: 300px;
+  margin: 0;
+}
+
+#app {
+  padding: 10px;
+}
+
+#search-text {
+  display: block;
+  width: 100%;
+  line-height: 22px;
+  padding: 7px 10px;
+  outline: none;
+  border: 1px solid #f286aa;
+  border-radius: 3px;
+  background-color: #f5f7fa;
+  color: #33384d;
+  font-size: 14px;
+}
+
+#search-btn {
+  margin-top: 10px;
+  padding: 10px 40px;
+}

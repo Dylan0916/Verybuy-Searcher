@@ -1,0 +1,15 @@
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn.btn-primary {
+  background-color: #f3689b;
+  color: #fff;
+}

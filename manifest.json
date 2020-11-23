@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Verybuy Searcher",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+  "icons": {
+    "16": "./images/icon_128x128.png",
+    "48": "./images/icon_128x128.png",
+    "128": "./images/icon_128x128.png"
+  },
+  "browser_action": {
+    "default_title": "Verybuy - test",
+    "default_icon": "./images/icon_128x128.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "activeTab", "contextMenus"],
+  "background": {"page": "background.html"}
+}
